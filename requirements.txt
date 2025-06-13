@@ -1,0 +1,10 @@
+SQLAlchemy>=1.4,<2.1
+pandas>=1.4,<2.3
+PyYAML>=5.4
+PyMySQL>=1.0
+psycopg2-binary>=2.9
+sqlparse>=0.4
+cryptography>=38.0
+openpyxl>=3.0
+numpy>=1.22
+tqdm>=4.60

@@ -1,0 +1,30 @@
+# Line endings (normalize across OSes)
+* text=auto eol=lf
+
+# Python source files
+*.py text eol=lf
+
+# Markdown and config files (also LF)
+*.md text eol=lf
+*.txt text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.cfg text eol=lf
+*.toml text eol=lf
+*.in text eol=lf
+
+# Shell scripts or bash files
+*.sh text eol=lf
+
+# Prevent Git from treating binary files as text
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.svg binary
+
+# Exclude tests/ and docs/ from GitHub linguist stats
+tests/* linguist-documentation
+
+# docs
+docs/* linguist-documentation

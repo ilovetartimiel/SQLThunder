@@ -1,0 +1,7 @@
+-e .[dev]
+
+# Build and publishing tools
+setuptools>=47
+build>=1.0
+twine>=4.0
+wheel>=0.36

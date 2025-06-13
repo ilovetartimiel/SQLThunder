@@ -1,0 +1,48 @@
+# Virtual environment
+.venv/
+venv/
+
+# Environment variables
+.env
+
+.DS_Store
+src/.DS_Store
+
+# Byte-compiled and cached files
+*.pyc
+*.pyo
+__pycache__/
+*.cache
+*.pytest_cache/
+
+# PyCharm / VSCode project files
+.idea/
+.idea
+.vscode/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Docker
+*.pid
+
+# Distribution and build directories
+dist/
+build/
+*.egg-info/
+docs/source/_build/
+
+# Coverage reports
+.coverage*
+.coverage
+htmlcov/
+
+# Other files to ignore
+*.sqlite3
+*.bak
+.DS_Store  # macOS-specific
+my_notes.yaml

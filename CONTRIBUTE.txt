@@ -1,0 +1,94 @@
+# Contribution Guide – SQLThunder
+
+Thank you for your interest in contributing to SQLThunder.
+
+SQLThunder is a flexible, high-level SQL client for Python that simplifies database interactions across SQLite, MySQL, and PostgreSQL. It is designed to be more accessible than raw SQLAlchemy, while offering more complete control than most lightweight wrappers.
+
+-------------------------------------------------------------------------------
+
+Getting Started
+
+1. Clone the repository
+
+   git clone https://github.com/yourusername/SQLThunder.git
+   cd SQLThunder
+
+2. Set up a virtual environment
+
+   python -m venv venv
+   source venv/bin/activate        # On Windows: venv\Scripts\activate
+
+3. Install the package in editable mode with all development tools
+
+   pip install -e . -r requirements-dev.txt
+
+-------------------------------------------------------------------------------
+
+Pre-commit Hooks
+
+This project uses pre-commit to ensure code style, formatting, and type consistency.
+The hook configuration is in .pre-commit-config.yaml.
+
+To install pre-commit hooks:
+
+   pre-commit install
+
+To run all hooks manually on all files:
+
+   pre-commit run --all-files
+
+Hooks include:
+- black (code formatting)
+- flake8 (linting)
+- isort (import sorting)
+- mypy (type checking)
+
+-------------------------------------------------------------------------------
+
+Running Tests
+
+SQLThunder uses pytest for testing. A docker-compose.yaml file is included to
+spin up temporary databases for integration tests.
+
+1. Start the test containers
+
+   docker-compose up -d
+
+2. Run the tests
+
+   pytest
+
+Tests are located in the tests/ directory and include both unit and integration coverage.
+
+-------------------------------------------------------------------------------
+
+Code Style
+
+Follow PEP 8 and use type hints for all public functions.
+
+To install pre-commit hooks:
+
+   pre-commit install
+
+To run all hooks manually on all files:
+
+   pre-commit run --all-files
+
+Additionally, please use Google-Style docstrings.
+
+-------------------------------------------------------------------------------
+
+Pull Request Guidelines
+
+- Use a feature branch
+- Make clear, focused commits
+- Add or update relevant tests
+- Run the test suite locally before pushing
+- Ensure the tests GitHub workflow passes — pull requests will not be merged unless this check succeeds
+- Include a short, descriptive title and body in your PR
+
+-------------------------------------------------------------------------------
+
+Contact
+
+For questions or suggestions, please open an issue or contact the maintainer via GitHub.

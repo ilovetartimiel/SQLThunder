@@ -1,0 +1,13 @@
+# Include runtime metadata and license
+include LICENSE
+include README.md
+include setup.py
+include setup.cfg
+include pyproject.toml
+
+# Include dependency files
+include requirements.txt
+include requirements-dev.txt
+
+# Include type information (PEP 561)
+include src/SQLThunder/py.typed

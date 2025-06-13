@@ -1,0 +1,13 @@
+/* Center navbar content between logo and search */
+.bd-navbar .navbar-nav {
+    margin: 0 auto;
+}
+
+/* Optional: Add some spacing */
+.bd-navbar .navbar-brand {
+    margin-right: 2rem;
+}
+
+.bd-navbar .navbar-end {
+    margin-left: 2rem;
+}
