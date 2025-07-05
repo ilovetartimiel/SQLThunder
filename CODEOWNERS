@@ -1,0 +1,48 @@
+# CODEOWNERS file for SQLThunder
+# This file defines who owns different parts of the codebase
+# When someone opens a PR, the code owners will automatically be requested for review
+
+# Global owner - owns everything by default
+* @ilovetartimiel
+
+# Package configuration and dependencies
+pyproject.toml @ilovetartimiel
+requirements.txt @ilovetartimiel
+requirements-dev.txt @ilovetartimiel
+setup.py @ilovetartimiel
+setup.cfg @ilovetartimiel
+MANIFEST.in @ilovetartimiel
+
+# GitHub workflows and repository configuration
+.github/ @ilovetartimiel
+.gitignore @ilovetartimiel
+.gitattributes @ilovetartimiel
+.pre-commit-config.yaml @ilovetartimiel
+
+# Documentation
+README.md @ilovetartimiel
+CHANGELOG.md @ilovetartimiel
+CONTRIBUTE.txt @ilovetartimiel
+LICENSE @ilovetartimiel
+docs/ @ilovetartimiel
+.readthedocs.yml @ilovetartimiel
+
+# Core source code
+src/ @ilovetartimiel
+
+# Tests
+tests/ @ilovetartimiel
+test_*.py @ilovetartimiel
+*_test.py @ilovetartimiel
+
+# Docker configuration
+docker-compose.yaml @ilovetartimiel
+
+# Development configuration
+.pre-commit-config.yaml @ilovetartimiel
+
+# Configuration files
+*.yaml @ilovetartimiel
+*.yml @ilovetartimiel
+*.toml @ilovetartimiel
+*.cfg @ilovetartimiel
