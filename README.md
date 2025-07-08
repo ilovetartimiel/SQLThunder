@@ -20,13 +20,13 @@ The best thing about **SQLThunder**: no boilerplate code !
 
 ## Table of Contents
 
-- [Features](#features)
-- [Installation](#installation)
-- [Example Usage](#example-usage)
-- [CLI Usage](#cli-usage)
-- [Documentation](#documentation)
-- [Contributing](#contributing)
-- [License](#license)
+- [Features](https://github.com/ilovetartimiel/SQLThunder#features)
+- [Installation](https://github.com/ilovetartimiel/SQLThunder#installation)
+- [Example Usage](https://github.com/ilovetartimiel/SQLThunder#example-usage)
+- [CLI Usage](https://github.com/ilovetartimiel/SQLThunder#cli-usage)
+- [Documentation](https://github.com/ilovetartimiel/SQLThunder#documentation)
+- [Contributing](https://github.com/ilovetartimiel/SQLThunder#contributing)
+- [License](https://github.com/ilovetartimiel/SQLThunder#license)
 
 ---
 
@@ -110,10 +110,10 @@ https://sqlthunder.readthedocs.io
 
 ## Contributing
 
-See [CONTRIBUTE.txt](CONTRIBUTE.txt) to get started. PRs and feedback are welcome!
+See [CONTRIBUTE.txt](https://github.com/ilovetartimiel/SQLThunder/blob/main/CONTRIBUTE.txt) to get started. PRs and feedback are welcome!
 
 ---
 
 ## License
 
-MIT — see [LICENSE](LICENSE) for details.
+MIT — see [LICENSE](https://github.com/ilovetartimiel/SQLThunder/blob/main/LICENSE) for details.
