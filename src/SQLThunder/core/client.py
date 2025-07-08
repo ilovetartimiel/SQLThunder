@@ -1410,6 +1410,8 @@ class DBClient:
             )
             if return_failures and return_status:
                 return pd.DataFrame(failed_records), False
+            elif return_failures:
+                return pd.DataFrame(failed_records), None
             elif return_status:
                 logger.info(
                     "return_failures=False, failed records will not be returned."
